@@ -1,8 +1,6 @@
 # SQLModel-ORM imports
 from sqlmodel import Field, SQLModel
 
-class Person(SQLModel, table=True):
+class SampleModel(SQLModel, table=True):
     id : int | None = Field(default=None, primary_key=True)
-    first_name: str
-    last_name: str
-    social_id: int
+    name: str
