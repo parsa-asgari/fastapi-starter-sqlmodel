@@ -20,10 +20,6 @@
    CREATE DATABASE mydb;
    ALTER ROLE postgres WITH PASSWORD 'postgres';
    ```
-4. To make Piccolo create tables:
-   ```bash
-
-   ```
 4. Run the project with:
    ```bash
    fastapi run main.py  --reload
