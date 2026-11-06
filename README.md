@@ -1,4 +1,4 @@
-# FastAPI Starter + PiccoloORM
+# FastAPI Starter + SQLModel
 
 1. To setup the project
 
